@@ -14,11 +14,7 @@ public class Main {
         }
 
         for (Figure figure : array) {
-            System.out.println("Figure: "
-                    + 1
-                    + ", area: "
-                    + figure.findArea() + "sq. units, side: "
-                    + figure.getColor());
+            figure.draw();
         }
     }
 }
