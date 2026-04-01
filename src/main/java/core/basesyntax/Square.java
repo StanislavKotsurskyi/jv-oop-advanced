@@ -20,10 +20,10 @@ public class Square extends Figure {
     @Override
     public void draw() {
         System.out.println("Figure: "
-                + Figures.RECTANGLE.name()
+                + Figures.SQUARE.name()
                 + ", area: "
                 + findArea()
-                + "sq. units, color: "
+                + " sq. units, color: "
                 + getColor()
                 + ", side: "
                 + side);

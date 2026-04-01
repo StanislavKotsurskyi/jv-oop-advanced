@@ -19,7 +19,7 @@ public class Circle extends Figure {
                 + Figures.CIRCLE.name()
                 + ", area: "
                 + findArea()
-                + "sq. units, color: "
+                + " sq. units, color: "
                 + getColor()
                 + ", radius: "
                 + radius);

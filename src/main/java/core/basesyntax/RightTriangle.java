@@ -26,10 +26,10 @@ public class RightTriangle extends Figure {
     @Override
     public void draw() {
         System.out.println("Figure: "
-                + Figures.RECTANGLE.name()
+                + Figures.RIGHTTRIANGLE.name()
                 + ", area: "
                 + findArea()
-                + "sq. units, color: "
+                + " sq. units, color: "
                 + getColor()
                 + ", first leg: "
                 + firstLeg

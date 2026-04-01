@@ -30,7 +30,7 @@ public class Rectangle extends Figure {
                 + Figures.RECTANGLE.name()
                 + ", area: "
                 + findArea()
-                + "sq. units, color: "
+                + " sq. units, color: "
                 + getColor()
                 + ", length: "
                 + length

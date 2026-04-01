@@ -32,10 +32,10 @@ public class IsoscelesTrapezoid extends Figure {
     @Override
     public void draw() {
         System.out.println("Figure: "
-                + Figures.RECTANGLE.name()
+                + Figures.ISOSCELESTRAPEZOID.name()
                 + ", area: "
                 + findArea()
-                + "sq. units, color: "
+                + " sq. units, color: "
                 + getColor()
                 + ", first base: "
                 + base1
