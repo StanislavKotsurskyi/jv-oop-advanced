@@ -16,4 +16,16 @@ public class Square extends Figure {
     public double findArea() {
         return (double) side * side;
     }
+
+    @Override
+    public void draw() {
+        System.out.println("Figure: "
+                + Figures.RECTANGLE.name()
+                + ", area: "
+                + findArea()
+                + "sq. units, color: "
+                + getColor()
+                + ", side: "
+                + side);
+    }
 }

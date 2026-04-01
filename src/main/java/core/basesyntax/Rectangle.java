@@ -23,4 +23,18 @@ public class Rectangle extends Figure {
     public double findArea() {
         return (double) length * width;
     }
+
+    @Override
+    public void draw() {
+        System.out.println("Figure: "
+                + Figures.RECTANGLE.name()
+                + ", area: "
+                + findArea()
+                + "sq. units, color: "
+                + getColor()
+                + ", length: "
+                + length
+                + ", width: "
+                + width);
+    }
 }

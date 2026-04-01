@@ -22,4 +22,18 @@ public class RightTriangle extends Figure {
     public double findArea() {
         return (double) (firstLeg * secondLeg) / 2;
     }
+
+    @Override
+    public void draw() {
+        System.out.println("Figure: "
+                + Figures.RECTANGLE.name()
+                + ", area: "
+                + findArea()
+                + "sq. units, color: "
+                + getColor()
+                + ", first leg: "
+                + firstLeg
+                + ", second leg: "
+                + secondLeg);
+    }
 }

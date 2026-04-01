@@ -8,12 +8,20 @@ public class Circle extends Figure {
         this.radius = radius;
     }
 
-    public int getRadius() {
-        return radius;
-    }
-
     @Override
     public double findArea() {
         return Math.pow(radius, 2) * Math.PI;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Figure: "
+                + Figures.CIRCLE.name()
+                + ", area: "
+                + findArea()
+                + "sq. units, color: "
+                + getColor()
+                + ", radius: "
+                + radius);
     }
 }
