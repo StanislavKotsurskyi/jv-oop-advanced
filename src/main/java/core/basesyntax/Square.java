@@ -20,7 +20,7 @@ public class Square extends Figure {
     @Override
     public void draw() {
         System.out.println("Figure: "
-                + Figures.SQUARE.name()
+                + FigureName.SQUARE.name()
                 + ", area: "
                 + findArea()
                 + " sq. units, color: "

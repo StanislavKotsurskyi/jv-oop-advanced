@@ -16,7 +16,7 @@ public class Circle extends Figure {
     @Override
     public void draw() {
         System.out.println("Figure: "
-                + Figures.CIRCLE.name()
+                + FigureName.CIRCLE.name()
                 + ", area: "
                 + findArea()
                 + " sq. units, color: "

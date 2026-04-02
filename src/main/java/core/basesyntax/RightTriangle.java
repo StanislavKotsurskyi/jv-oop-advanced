@@ -26,7 +26,7 @@ public class RightTriangle extends Figure {
     @Override
     public void draw() {
         System.out.println("Figure: "
-                + Figures.RIGHTTRIANGLE.name()
+                + FigureName.RIGHTTRIANGLE.name()
                 + ", area: "
                 + findArea()
                 + " sq. units, color: "
